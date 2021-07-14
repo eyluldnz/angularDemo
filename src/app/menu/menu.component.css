@@ -1,0 +1,13 @@
+li {
+    background-color: cadetblue;
+    color: wheat;
+    cursor: pointer;
+    padding: .25em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+li:hover{
+    color:white;
+    border-left: 4px solid darkgrey;
+}

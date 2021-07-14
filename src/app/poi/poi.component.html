@@ -1,0 +1,53 @@
+<div>
+    <form >
+
+
+
+        <div class="form-group">
+            <label for="name">Köprü Adı:</label>
+            <br>
+            <input type="text" placeholder="Köprü Adı" #name="ngModel" [(ngModel)]="poi.name"
+                class="form-control form-control-lg" name="name" id="name">
+        </div>
+        <div class="form-group">
+            <label for="year">Köprü Yapım Yılı:</label>
+            <br>
+            <input type="text" placeholder="Köprü Yapım Yılı" #year="ngModel" [(ngModel)]="poi.year"
+                class="form-control from-control-lg" name="year" id="year">
+        </div>
+        <div class="form-group">
+            <label for="length">Köprü Uzunluğu:</label>
+            <br>
+            <input type="text" placeholder="Köprü Uzunluk" #length="ngModel" [(ngModel)]="poi.length"
+                class="form-control" name="length" id="length">
+        </div>
+
+        <div class="form-group">
+            <label for="width">Köprü Genişliği:</label>
+            <br>
+            <input type="text" placeholder="Köprü Uzunluk" #width="ngModel" [(ngModel)]="poi.width"
+                class="form-control" name="width" id="width">
+        </div>
+
+        <div class="form-group">
+            <label for="lat">Köprü X Koordinatı:</label>
+            <br>
+            <input type="text" placeholder="Köprü Uzunluk" #lat="ngModel"  [(ngModel)]="poi.lat" disabled
+                class="form-control" name="lat" id="lat">
+        </div>
+
+        <div class="form-group">
+            <label for="lng">Köprü Y Koordinatı:</label>
+            <br>
+            <input type="text" placeholder="Köprü Uzunluk" #lng="ngModel"  [(ngModel)]="poi.lng"  disabled
+                class="form-control" name="lng" id="lng">
+        </div>
+
+        <button type="submit" class="btn btn-primary" (click)="addPoi(poi)">
+            Kaydet
+        </button>
+    </form>
+
+    
+
+</div>

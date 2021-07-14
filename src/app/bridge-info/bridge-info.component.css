@@ -1,0 +1,12 @@
+#infoDiv{
+    margin-top:15px;
+    padding: .25em;
+    background-color: darkcyan;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+ #div{
+     color: white;
+     width: 500px;
+ }

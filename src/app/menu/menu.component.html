@@ -1,0 +1,6 @@
+<nav id="navbar">
+    <ul>
+        
+        <li *ngFor="let bridge of  menuBridge;" (click)="selectBridge(bridge)"> {{ bridge.name |uppercase }} </li>
+    </ul>
+</nav>

@@ -1,0 +1,7 @@
+<div id="div">
+    <ul id="infoDiv"  *ngIf="getBridge"> {{getBridge.name }} 
+        <li>Yıl:{{getBridge.year}} Uzunluk: {{getBridge.length}} Genişlik: {{getBridge.width}} <button style="float: right;" (click)="goToMap(getBridge)">Haritada Göster</button></li>
+    </ul>
+
+</div>
+
